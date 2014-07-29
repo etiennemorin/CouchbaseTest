@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouchbaseTest", "CouchbaseTest.csproj", "{0128EF20-CAB1-4697-9F6E-2BEE91F2040C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{44FE20E8-C016-4BFB-BFDE-DC26AFF36A54}"
+	ProjectSection(SolutionItems) = preProject
+		Libraries\Couchbase.dll = Libraries\Couchbase.dll
+		Libraries\Enyim.Caching.dll = Libraries\Enyim.Caching.dll
+		Libraries\Enyim.Caching.Log4NetAdapter.dll = Libraries\Enyim.Caching.Log4NetAdapter.dll
+		Libraries\Enyim.Caching.NLogAdapter.dll = Libraries\Enyim.Caching.NLogAdapter.dll
+		Libraries\log4net.dll = Libraries\log4net.dll
+		Libraries\Newtonsoft.Json.dll = Libraries\Newtonsoft.Json.dll
+		Libraries\NLog.dll = Libraries\NLog.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0128EF20-CAB1-4697-9F6E-2BEE91F2040C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0128EF20-CAB1-4697-9F6E-2BEE91F2040C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0128EF20-CAB1-4697-9F6E-2BEE91F2040C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0128EF20-CAB1-4697-9F6E-2BEE91F2040C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
